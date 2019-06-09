@@ -5,7 +5,7 @@ const app = express();
 
 // configuração de segurança
 
-app.disable('x-powered-by');
+
 
 app.get('*', (req, res, next) => {
     if (req.headers['x-forwarded-proto'] != 'https') {
