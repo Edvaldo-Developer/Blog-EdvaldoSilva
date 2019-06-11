@@ -52,7 +52,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: #fafafa !important;
+    background: url(../images/background/download.jpg);
 }
 	
 html {
@@ -110,12 +110,13 @@ button {
 }
 
 .page-body {
-    background: #ffffff;
+    background: #E8E8E8;
     box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
 }
 
 .sub-title {
     padding: 30px;
+    background: #E8E8E8;
 }
 
 .sub-title h2 {
@@ -137,6 +138,7 @@ button {
     padding-bottom: 60px;
     border-top: 1px dashed #dedede;
     border-bottom: 1px dashed #dedede;
+    background: #E8E8E8;
 }
 
 .grabbing {
@@ -337,7 +339,7 @@ button {
 .my-detail {
     text-align: center;
     margin-bottom: 30px;
-    background: #ffffff;
+    background: #E8E8E8;
     box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
 }
 
@@ -597,6 +599,7 @@ tr > td:nth-child(2) {
 div.blog-post {
     display: none;
     margin-bottom: 50px;
+    
 }
 
 .blog-post .post-image img {
