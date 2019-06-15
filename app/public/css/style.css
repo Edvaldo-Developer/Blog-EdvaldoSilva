@@ -110,13 +110,13 @@ button {
 }
 
 .page-body {
-    background: #E8E8E8; opacity: 0.8;
+    opacity: 0.8;
     box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
 }
 
 .sub-title {
     padding: 30px;
-    background: #E8E8E8;
+    
 }
 
 .sub-title h2 {
@@ -138,7 +138,8 @@ button {
     padding-bottom: 60px;
     border-top: 1px dashed #dedede;
     border-bottom: 1px dashed #dedede;
-    background: #E8E8E8; opacity: 0.8;
+    /* background: #E8E8E8;  
+    opacity: 0.8; */
 }
 
 .grabbing {
@@ -324,7 +325,7 @@ button {
 
 .about-fixed {
     position: fixed;
-    width: 20.8%;
+    width: 18.8%;
 }
 
 .my-pic {
@@ -1014,7 +1015,7 @@ blockquote {
 /* Footer */
 
 .footer {
-    background-image: linear-gradient(to top , #252525 , #eeeeee);
+    /* background-image: linear-gradient(to top , #252525 , #eeeeee); */
     background-repeat: repeat;
     text-align: center;
     padding: 30px 0;
