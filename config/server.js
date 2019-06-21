@@ -7,6 +7,7 @@ const app = express();
 // OBS: Modo de segurança e certificado SSl
 
   app.disable('x-powered-by');
+  
   app.get('*', (req, res, next) => {
       if (req.headers['x-forwarded-proto'] != 'https') {  
 // checa se o header é HTTP ou HTTPS
