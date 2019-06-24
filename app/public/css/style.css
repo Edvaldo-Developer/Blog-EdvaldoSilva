@@ -1098,9 +1098,9 @@ blockquote {
 .google-plus {
    background-color: #dd4b39;
 }
-
+/* classe .instagram adicionar cor no modo Gradiente linnear  */
 .instagram {
-   background-color: #464545;
+   background-color: #464545; 
 }
 
 .linkedin {
