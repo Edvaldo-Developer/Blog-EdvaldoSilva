@@ -5,7 +5,7 @@ const app = express();
 
 // configuração de segurança
 // OBS: Modo de segurança e certificado SSl
-
+/*
   app.disable('x-powered-by');
   
   app.get('*', (req, res, next) => {
@@ -18,7 +18,7 @@ const app = express();
 // segue com a sequência das rotas
      }
   });
-
+*/
 app.set('view engine', 'ejs');
 app.set('views' , './app/views');
 
